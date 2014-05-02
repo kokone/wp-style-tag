@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name:    WP Style Tag shortcode
-Plugin URI:     https://github.com/AlphaH/wp-style-tag
+Plugin URI:     https://github.com/A7M2/wp-style-tag
 Description:    Add inline CSS to a post
 Version:        1.0
 Author:         Nathaniel Williams
