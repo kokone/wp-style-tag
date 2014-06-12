@@ -17,6 +17,7 @@ class WP_Style_Tag {
 
 	public function shortcode( $attributes, $content = null ) {
 		if( !is_null($content) && $content !== '' ) {
+			$content = str_replace( '&nbsp;', ' ', strip_tags( $content ) );
 			return '<style>' . str_replace( '&gt;', '>', strip_tags( $content ) ) . '</style>';
 		} else {
 			return '';
